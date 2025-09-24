@@ -59,15 +59,7 @@
 .header-right {
   float: right;
 }
-#videoDiv2 {width:100%; max-width:1200px; margin:auto; display:block; position: relative;} /* This has been changed */
-#video2{width:100%; height:auto } /* This has been changed */
-#videoMessage2 { position: absolute; top: 0; left: 0;
-display: flex;
-flex-direction: column; 
-justify-content: center;
-align-items: center; 
-width: 100%;
-height: 100%;}
+
 </style>	
 </head>
 <body>
@@ -80,7 +72,7 @@ height: 100%;}
 	<a class="navbar-brand" href="#"><center>HariPriya</center></a>
 	</div>
 	<ul class="nav navbar-nav">
-	<li class="active"><a href="#">Home</a></li>
+	<li class="active"><a href="home.php">Home</a></li>
 	
 	
 	<li><a href="about.php">About</a></li>
@@ -89,33 +81,35 @@ height: 100%;}
 	<span class="caret"></span></a>
 	<ul class="dropdown-menu">
     <li><a href="Grains.php">Grains</a></li>
-	<li><a href="Frozenitems.php">Frozenitems</a></li>
-	<li><a href="Household.php">Household</a></li>
+	<li><a href="Frozenitems.php">Frozen items</a></li>
+	<li><a href="Household.php">House hold</a></li>
 	<li><a href="Spices.php">Spices</a></li>
 	<li><a href="Dairy.php">Dairy</a></li>
 	<li><a href="Oils.php">Oils</a></li>
 	</ul>
 	</li>
 	<li><a href="Register.php">Register</a></li>
-	<li><a href="contact.php">Contact Us</a></li>
+	<li><a href="contact.php">Contactus</a></li>
 	</ul>
 	</div>
 	</nav>
-	
-	<divclass="container">
-	<div id="videoDiv2">
-	<video id="video2" preload="" autoplay="" muted="" playsinline="" loop="">
-	
-	<source src="images/m3.mp4" type=video/mp4>
-	</video>
-		<div id="videoMessage2" class="styling">
-		
-		</div>
-	</div>
-	
+<div>
+        <center><h1>weekend feast...</h1>
+        <h1>Curry Powder n Ghee?<h1>
+        <h1>Grab your phone not your key!<h1>
+        <br>		
+		<h2>Find your happiness here</h2>
+        <h3>We're available for</h3>
+        <h4>Providing groceries on your hand </h4>
+		<p>There are several benefits of online shopping. Firstly, it is very convenient as you 
+		can shop from the comfort of your own home. Secondly, it is very fast and you can 
+		find what you are looking for quickly and easily. Thirdly, it is very cheap as
+		there are no middlemen involved. Fourthly, there is a wide range of products available 
+		online.</p>
 
-
-<footer class="text-center text-lg-start bg-light text-muted">
+</center>
+</div>
+	<footer class="text-center text-lg-start bg-light text-muted">
   
   <section class="">
     
@@ -132,6 +126,3 @@ height: 100%;}
 <!-- Footer -->
 </body>   
 </html>
-	
-	
-	
