@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio site</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(5, 5, 95);
+            color: aliceblue;
+            font-family: 'poppins' , sans-serif;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(17, 17, 81);
+      }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            list-style: none;
+            margin: 0 25px; 
+        }
+         nav ul li a:hover{
+            color: blueviolet;
+         }
+        .left
+        {
+            font-size: 2rem;
+            font-style: italic;
+        }
+        .firstsection
+        {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px 0;
+            
+
+        }
+        .purple{
+            color: blueviolet;
+        }
+        .leftsection
+        {
+            margin: 50px 0;
+            font-size: 1.5rem;
+
+        }
+        .rightsection
+        {
+            
+            margin: 60px 0;
+            width: 30%;
+
+        }
+        #element{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">My Protfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="C:\Users\sonali kumari\Desktop\code Alpha\home.html">Home</li></a>
+                    <li><a href="C:\Users\sonali kumari\Desktop\code Alpha\about.html">About</a></li>
+                    <li><a href="C:\Users\sonali kumari\Desktop\code Alpha\services.html">Services</a></li>
+                    <li><a href="C:\wamp64\www">Projects</a></li>
+                   <li><a href="C:\Users\sonali kumari\Desktop\code Alpha\contact.html">Contact Us</a></li>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+        <div class="leftsection">
+        Hello, Everyone I am <span class="purple">Sonali Gupta</span>.<br>
+        Welcome you all to this website.<br>
+        What can <span class="purple">I help you?</span> <br>
+            <span id="element"></span>
+
+    </div>
+        <div class="rightsection">
+            <img src="1.jpeg">
+        </div>
+    </section>
+    </main>
+    
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>  
+
+<script>
+    var typed = new Typed('#element', {
+      strings: ['<i>I am a Web</i> Developer', '&amp; a Graphics designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
